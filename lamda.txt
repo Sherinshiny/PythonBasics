@@ -1,0 +1,4 @@
+def addNum(n):
+  return lambda a : lambda b : lambda c: n+a+b+c
+
+print(addNum(2)(4)(7)(1))
